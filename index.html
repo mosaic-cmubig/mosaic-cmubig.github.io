@@ -144,8 +144,7 @@
 
                   <!-- ArXiv abstract Link -->
                   <span class="link-block">
-                    <a href="#" class="external-link button is-normal is-rounded is-dark" disabled>
-                    <!-- <a href="https://arxiv.org/abs/2501.02630" target="_blank" class="external-link button is-normal is-rounded is-dark"> -->
+                    <a href="https://arxiv.org/abs/2503.13816" target="_blank" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="ai ai-arxiv"></i>
                       </span>
@@ -162,18 +161,30 @@
   </section>
 
   <!-- Overview video -->
-  <section class="hero teaser">
+  <!-- <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
         <h2 class="title is-3 has-text-centered">Overview</h2>
         <div class="video-container">
           <video autoplay controls muted loop>
-            <source src="static/videos/supp_video.mp4" type="video/mp4">
+            <source src="static/videos/teaser.mp4" type="video/mp4">
           </video>
         </div>
         <div class="content has-text-centered mt-4">
           <p class="subsubtitle">MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple Depth Views in Multi-Room Environments</p>
         </div>
+      </div>
+    </div>
+  </section> -->
+  <section class="teaser">
+    <div class="container is-max-desktop; content has-text-centered">
+      <div class="hero-body">
+        <h3 class="content has-text-centered">
+              TL;DR We generate <span style="color:rgb(52, 216, 93)">Multi-view Consistent</span> images given <span style="color: red">depths</span> from <span style="color: red">any trajectory viewpoints</span>.
+        </h3>
+        <video style="width: 70%; height: auto; margin-top: -5px;" playsinline="" autoplay="" loop="" muted="" id="teaser">
+            <source src="./static/videos/teasercrop.mov" type="video/mp4">
+        </video>
       </div>
     </div>
   </section>
@@ -211,7 +222,17 @@
       <h2 class="title is-3 has-text-centered">Citation</h2>
       <div class="columns is-centered">
         <div class="column is-8">
-          <pre><code>Coming Soon</code></pre>
+          <pre><code>
+@misc{liu2025mosaicgeneratingconsistentprivacypreserving,
+  title={MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple Depth Views in Multi-Room Environments}, 
+  author={Zhixuan Liu and Haokun Zhu and Rui Chen and Jonathan Francis and Soonmin Hwang and Ji Zhang and Jean Oh},
+  year={2025},
+  eprint={2503.13816},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2503.13816}, 
+}
+          </code></pre>
         </div>
       </div>
     </div>
