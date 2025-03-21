@@ -216,6 +216,36 @@
     </div>
   </section>
 
+  <!-- MOSAIC Pipeline -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered section-title"> <span style="color: rgb(59, 188, 224)">MOSAIC</span>: <span style="color: rgb(59, 188, 224)">M</span>ulti-view <span style="color: rgb(59, 188, 224)">O</span>verlapped <span style="color: rgb(59, 188, 224)">S</span>cene <span style="color: rgb(59, 188, 224)">A</span>lignment <br> with <span style="color: rgb(59, 188, 224)">I</span>mplicit <span style="color: rgb(59, 188, 224)">C</span>onsistency</h2>
+      
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <!-- Add a pipeline illustration here -->
+          <div class="content">
+            <p>We introduce a novel zero-shot approach that explicitly considers cross-view dependencies within the same scene in the probabilistic sense.</p>
+          </div>
+            
+          <figure class="image">
+            <img src="static/images/method.png" alt="MOSAIC Pipeline Illustration" style="width: 100%; max-width: 1200px;">
+            <figcaption class="has-text-centered">Overview of the MOSAIC pipeline.</figcaption>
+          </figure>
+          
+          <div class="content">
+            <h3 class="title is-4">Design Features:</h3>
+            <ul>
+              <li><strong>(a) MOSAIC denoising process:</strong> during each diffusion denoising step, MOSAIC employs Multi-Channel Test-Time Optimization on the formulated consistency objective.</li>
+              <li><strong>(b) Projection loss:</strong> MOSAIC mathematically proves that the consistency objective functions as a cross-view projection loss, and proposes a weighted projection loss for practical implementation.</li>
+              <li><strong>(c) Pixel spaces refinement loss:</strong> the non-linear VAE decoder means that latent space consistency doesn't guarantee pixel-space consistency. MOSAIC addresses this through pixel space refinement during final denoising stages.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- BibTeX -->
   <section class="section">
     <div class="container is-max-desktop">
@@ -246,7 +276,7 @@
           <h2 class="title is-3">Acknowledgements</h2>
           <div class="content has-text-centered">
             <p>
-              This work was supported in part by NSF IIS-2112633.
+              We thank Yanbo Xu, Yifan Pu, Zhipeng Bao, Zongtai Li for their helpful inputs. This work was supported in part by NSF IIS-2112633.
             </p>
           </div>
         </div>
