@@ -60,7 +60,8 @@ body {
     width: fit-content; /* Keep this to make the background only as wide as the text */
     font-weight: bold;
     font-size: 1.5em; /* Make the text larger (adjust value as needed) */
-    margin-bottom: 1em; /* Add some space below (adjust value as needed) */
+    margin-top: 0.5em; /* Add some space above (adjust value as needed) */
+    margin-bottom: 0.5em; /* Add some space below (adjust value as needed) */
     margin-left: auto;   /* These two lines center the block itself */
     margin-right: auto;  /* within its parent container */
 }
