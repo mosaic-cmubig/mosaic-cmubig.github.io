@@ -56,12 +56,13 @@ body {
 }
 
 .publication-venue {
-    color: #444;
-    /* width: fit-content; */
+    color: #444; /* Make the text black */
+    width: fit-content; /* Keep this to make the background only as wide as the text */
     font-weight: bold;
-    font-size: 1.5em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    font-size: 1.5em; /* Make the text larger (adjust value as needed) */
+    margin-bottom: 1em; /* Add some space below (adjust value as needed) */
+    margin-left: auto;   /* These two lines center the block itself */
+    margin-right: auto;  /* within its parent container */
 }
 
 .publication-awards {
