@@ -197,18 +197,15 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              We introduce a novel diffusion-based approach for generating
-              privacy-preserving digital twins of multi-room indoor environments from depth
-              images only. Central to our approach is a novel <b>M</b>ulti-view <b>O</b>verlapped <b>S</b>cene
-              <b>A</b>lignment with <b>I</b>mplicit <b>C</b>onsistency (<b>MOSAIC</b>) model that explicitly considers
-              cross-view dependencies within the same scene in the probabilistic sense.
-              MOSAIC operates through a novel inference-time optimization that avoids error
-              accumulation common in sequential or single-room constraint in panorama-based
-              approaches. MOSAIC scales to complex scenes with zero extra training and
-              provably reduces the variance during denoising processes when more overlapping
-              views are added, leading to improved generation quality. Experiments show that
-              MOSAIC outperforms state-of-the-art baselines on image fidelity metrics in
-              reconstructing complex multi-room environments.
+              We introduce a training-free diffusion-based approach for generating privacy-preserving 
+              digital twins of multi-room indoor environments from depth images only.
+              Central to our approach is a 
+              <b>M</b>ulti-view <b>O</b>verlapped <b>S</b>cene
+              <b>A</b>lignment with <b>I</b>mplicit <b>C</b>onsistency (<b>MOSAIC</b>) model that explicitly 
+              considers cross-view dependencies within the same scene in the probabilistic sense.
+              MOSAIC operates through a multi-channel inference-time optimization that avoids error accumulation common in sequential or single-room constraints in panorama-based approaches.
+              MOSAIC scales to complex scenes with zero extra training and provably reduces the variance during denoising process when more overlapping views are added, leading to improved generation quality.
+              Experiments show that MOSAIC outperforms state-of-the-art baselines on image fidelity metrics in reconstructing complex multi-room environments.
             </p>
           </div>
         </div>
